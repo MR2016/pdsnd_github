@@ -2,7 +2,7 @@
 02/12/2020
 
 ### Project Title
-Exploring US Bikeshare Data and Calculating Statistics 
+Exploring US Bikeshare Data using python libraries and Calculating Statistics 
 
 ### Description
 
@@ -20,6 +20,7 @@ new_york_city.csv - Dataset containing all bikeshare information for the city of
 
 washington.csv - Dataset containing all bikeshare information for the city of Washington provided by Udacity. Note: This does not include the 'Gender' or 'Birth Year' data.
 
+### I'm Making new changes
 
 ### Credits
 The Mentors for nanodegree program
