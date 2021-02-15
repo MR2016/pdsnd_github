@@ -12,6 +12,7 @@ In this project user has to enter a city (Washington) ,month (March),day(Wednesd
 3.statistics on the total and average trip duration-total trip duration,mean travel time and 
 4.statistics on bikeshare users-gender,date of birth and if no data is available
 
+Git upload:Also updating this file for additional for uptaking changes in git
 ### Files used
 
 chicago.csv - Stored in the data folder, the chicago.csv file is the dataset containing all bikeshare information for the city of Chicago provided by Udacity.
