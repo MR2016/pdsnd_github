@@ -20,8 +20,8 @@ def get_filters():
         (str) month - name of the month to filter by, or "all" to apply no month filter
         (str) day - name of the day of week to filter by, or "all" to apply no day filter
     """
-    print('Hello! Let\'s explore some US bikeshare data!')
-    # TO DO: get user input for city (chicago, new york city, washington). HINT: Use a while loop to handle invalid inputs
+    print('Hello! Let\'s explore some US bikeshare data!.')
+    # TO DO: 1 get user input for city (chicago, new york city, washington). HINT: Use a while loop to handle invalid inputs
     city_name=''
     while(city_name.lower() not in CITY_DATA ):
         city_name=input("\nEnter the city for which you want to perform the analysis (valid values- chicago/new york city/washington) : \n")
@@ -31,7 +31,7 @@ def get_filters():
             print("\nOops !! You have entered invalid city name.")
                 
 
-    # TO DO: get user input for month (all, january, february, ... , june)
+    # TO DO: 2.get user input for month (all, january, february, ... , june)
     month_name=''
     while(month_name.lower() not in MONTH_DATA ):
         month_name=input("\nEnter the month for which you want to perform the ananlysis(valid values- 'all', 'january', 'february', 'march', 'april', 'may', 'june') : \n")
@@ -42,7 +42,7 @@ def get_filters():
             print("\nOops !! You have entered invalid month name.")
                  
 
-    # TO DO: get user input for day of week (all, monday, tuesday, ... sunday)
+    # TO DO: 3.get user input for day of week (all, monday, tuesday, ... sunday)
     day_name=''
     while(day_name.lower() not in DAY_DATA ):
             day_name=input("\nEnter the day for which you want to perform the ananlysis(valid values- 'all', 'monday', 'tuesday', 'wednesday','thursday', 'friday', 'saturday', 'sunday'): \n")
